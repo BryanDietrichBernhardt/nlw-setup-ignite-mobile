@@ -96,7 +96,7 @@ export function New() {
 
       <TouchableOpacity
         activeOpacity={0.7}
-        className="w-full h-14 flex-row items-center justify-center bg-green-600 rounded-md mt-6"
+        className="w-full h-14 flex-row items-center justify-center bg-green-600 rounded-md mt-6 mb-6"
         onPress={handleCreateNewHabit}
       >
         <Feather name="check" size={20} color={colors.white} />
